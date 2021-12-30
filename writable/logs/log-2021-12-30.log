@@ -1,0 +1,61 @@
+CRITICAL - 2021-12-30 00:10:20 --> Class 'BaseController' not found
+#0 /var/www/html/ci4json/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(264): include_once()
+#1 /var/www/html/ci4json/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile()
+#2 /var/www/html/ci4json/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+#4 [internal function]: spl_autoload_call()
+#5 /var/www/html/ci4json/vendor/codeigniter4/framework/system/CodeIgniter.php(789): class_exists()
+#6 /var/www/html/ci4json/vendor/codeigniter4/framework/system/CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#7 /var/www/html/ci4json/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/ci4json/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /var/www/html/ci4json/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/c...')
+#10 {main}
+CRITICAL - 2021-12-30 00:10:55 --> Class 'BaseController' not found
+#0 /var/www/html/ci4json/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(264): include_once()
+#1 /var/www/html/ci4json/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile()
+#2 /var/www/html/ci4json/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+#4 [internal function]: spl_autoload_call()
+#5 /var/www/html/ci4json/vendor/codeigniter4/framework/system/CodeIgniter.php(789): class_exists()
+#6 /var/www/html/ci4json/vendor/codeigniter4/framework/system/CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#7 /var/www/html/ci4json/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/ci4json/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /var/www/html/ci4json/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/c...')
+#10 {main}
+CRITICAL - 2021-12-30 00:11:10 --> Invalid file: welcome.php
+#0 /var/www/html/ci4json/vendor/codeigniter4/framework/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /var/www/html/ci4json/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render()
+#2 /var/www/html/ci4json/app/Controllers/ApiController.php(22): view()
+#3 /var/www/html/ci4json/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\ApiController->index()
+#4 /var/www/html/ci4json/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/html/ci4json/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/html/ci4json/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /var/www/html/ci4json/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/c...')
+#8 {main}
+CRITICAL - 2021-12-30 00:13:36 --> Too few arguments to function App\Controllers\ApiController::specificJSONKey(), 0 passed in /var/www/html/ci4json/vendor/codeigniter4/framework/system/CodeIgniter.php on line 824 and exactly 1 expected
+#0 /var/www/html/ci4json/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\ApiController->specificJSONKey()
+#1 /var/www/html/ci4json/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/html/ci4json/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/html/ci4json/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /var/www/html/ci4json/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/c...')
+#5 {main}
+CRITICAL - 2021-12-30 00:14:11 --> Call to undefined function App\Controllers\request()
+#0 /var/www/html/ci4json/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\ApiController->specificJSONKey()
+#1 /var/www/html/ci4json/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/html/ci4json/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/html/ci4json/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /var/www/html/ci4json/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/c...')
+#5 {main}
+CRITICAL - 2021-12-30 00:14:13 --> Call to undefined function App\Controllers\request()
+#0 /var/www/html/ci4json/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\ApiController->specificJSONKey()
+#1 /var/www/html/ci4json/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/html/ci4json/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/html/ci4json/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /var/www/html/ci4json/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/c...')
+#5 {main}
+CRITICAL - 2021-12-30 01:49:41 --> Class 'Config\App\Filters\Cors' not found
+#0 /var/www/html/ci4json/vendor/codeigniter4/framework/system/CodeIgniter.php(384): CodeIgniter\Filters\Filters->run()
+#1 /var/www/html/ci4json/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#2 /var/www/html/ci4json/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#3 /var/www/html/ci4json/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/c...')
+#4 {main}
